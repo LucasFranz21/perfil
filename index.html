@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            background: red;
+            color: white;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: grey;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        h2 {
+            color: #333;
+        }
+        .list {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfil Pessoal de Lucas Franz</h1>
+    </header>
+    <div class="container">
+        <img src="data:image/jpeg;base64,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" alt="Foto de Lucas Franz">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Lucas Franz, sou desenvolvedor Backend e amante de tecnologia. Gosto de tecnologia coisas novas e ensinar outras pessoas.</p>
+
+        <h2>Habilidades</h2>
+        <ol class="list">
+            <li>HTML</li>
+            <li>React</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>CSS</li>
+        </ol>
+        <h2>Onde trabalhei</h2>
+        <ol class="list">
+            <li>Mcdonalds</li>
+            <li>Burguer King</li>
+            <li>Tata</li>
+            <li>Microsoft</li>
+            <li>Apple(no momento)</li>
+            
+        </ol>
+
+        <h2>Titulos</h2>
+        <ol class="list">
+            <li>2x Mrs Olympia</li>
+            <li>3x Champions league</li>
+            <li>5x libertadores</li>
+            <li>4x Campeao do mundo</li>
+            
+            
+        </ol>
+
+        <h2>Pretensão Salarial</h2>
+        <ol class="list">
+            <li>$5.000.000</li>
+        </ol>
+
+        <h2>Contato</h2>
+        <p>Você pode me encontrar nas redes sociais:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/LucasFranz" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/LucasFranz" target="_blank">GitHub</a></li>
+            <li><a href="https://Instagram.com/LucasFranz" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+</body>
+</html>
